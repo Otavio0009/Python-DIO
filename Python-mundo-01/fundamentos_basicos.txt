@@ -1,0 +1,64 @@
+Na liguagem Python posuimos algumas tipagens primitivas. O que são tipos primitivos? São os tipos de
+dados mais basicos e fundamentais de uma linguagem de programação, e são utilizados para armazenar
+valores simples, como números, caracteres e valores lógicos!
+
+Esse são os tipos primitivos da linguagem Python:
+    String = caracteres e são escriotos com aspas -> "Olá" ou 'Olá'
+    Int = números inteiros -> 1 2 3 4 5 ...
+    Float = números reais ou de ponto flutuante -> 1.1 1.2 ... 2.6 ...
+    Bolean = verdadeiro ou flaso -> True ou False
+
+Os dados posuiem a delimitadores especiais por exemplo as aspas "" ou '', em uma mensagem de exibição
+utilizamos a função nativa de py que é o Print que vem acompanhado de parentes () e podemos exibir
+qualquer informação no terminal, utilizando a função Print podemos mostrar mensagem,
+contas,  numeros entre outros!
+
+ex:
+
+    print("Olá, Mundo") -> Olá, Mundo
+    print(3 + 6) -> 9
+    print(True) -> True
+    print(1.8 + 3) -> 4.8
+
+Dentro do Print podemos sepra os valores de duas maneiras, utilizando virgula -> , <- ou -> + <-
+
+ex:
+
+    print("9", "10") -> vai separa as strings
+    print("9" + "10") -> nesse caso spesifico vai concatenar as duas strings a sua saida vai ser "910"
+
+OBS:
+ print("oi" + 5) -> vai da erro de copliação, pois o + mais vai tentar concatenar ou somar, nesse casso usar a virgula seria a melhor opção
+ Na função print temos a posibilidade de formatalo utilizando o .formt ou a penas o f.
+
+ ex:
+    
+    print("Olá {}!.format("Otavio"))
+    print(f"Olá {"Otavio}!)
+
+As varives são espaoços na memoria do computador onde você pode guardar qualquer cois.
+Em python as Variaves são consideradas objetos que tem como utilidade receber valores,
+e sua forma de escrita é com letras menusculas, o sibulo de recebe e um igual -> = <-
+
+ex:
+
+    nome = "Otávio" -> tipo str
+    idade = 20 -> tipo int
+    peso = 88.9 -> tipo float
+
+    print(nome, idade, peso)
+
+Dessa maneira que foi feito posteriormente os valores nuca seram alterados. Já se utilizarmos a função
+input que é nativa do python podemos alterar as nossas Variaves dinamicamente. O inpute lê um texto
+digitado no terminal e pausa a execução do programa até a tleca enter for precionada! Você pode
+colocar informações dentro do input utilizando aspas siplis ou duplas, se não for colocado qual é
+a tipagem do input ele sempre reconhecera como um str ou String.
+
+ex:
+    nome = input("Qual é o seu nome: ")
+    idade = input("Qual é a sua idade: ")
+    peso = input("Qual é o seu peso: ")
+
+    print(nome, idade, peso)
+    print(nome + idade + peso) -> vai concatenar as varives, pois ele é do tipo string
+
